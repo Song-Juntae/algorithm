@@ -120,3 +120,7 @@ Computational geometry
   ㅇ 결국, 비결정론적 다항식 시간 내 해결 가능하다고, 확인할 수 있는 문제들을 말함
 
   ㅇ 적용 例) 외판원 문제 (traveling-saleman problem, TSP 문제) 등
+
+  자료구조
+
+  
