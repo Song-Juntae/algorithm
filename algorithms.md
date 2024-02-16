@@ -55,3 +55,15 @@ $$가정이 \ 성립되지 \ 않으므로 \ 명제는 \ 참이다.$$
         if N >= 2:
             p_factors.append(int(N))
         return p_factors
+
+## 최대공약수 구하기
+
+    # 공약수 정의에 따른 최대공약수 구하기
+    def gcd(A,B):
+        r = 0
+        for i in range(1, min(A,B) + 1):
+            if A % i == 0 and B % i == 0:
+                r = i
+        return r
+    
+유클리드 호제법 : 
