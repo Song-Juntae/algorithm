@@ -66,4 +66,21 @@ $$가정이 \ 성립되지 \ 않으므로 \ 명제는 \ 참이다.$$
                 r = i
         return r
     
-유클리드 호제법 : 
+유클리드 알고리즘 : 두 수 중에 큰 수를 작은 수로 나눈 나머지로 변경하는 것을 반복하여, 한쪽이 0이 되면, 남은 한쪽이 두 수의 최대 공약수가 되는 알고리즘
+
+두 수의 최대 공약수가 "두 수 중에 큰 수를 작은 수로 나눈 나머지"와 작은 수의 최대 공약수와 같아서 가능한 알고리즘
+
+[참고 : https://proofwiki.org/wiki/Euclidean_Algorithm](https://proofwiki.org/wiki/Euclidean_Algorithm)
+
+시간 복잡도 $O(log(A+B))$
+
+    # 유클리드 알고리즘으로 최대공약수 구하기
+    def gcd(a, b):
+        while a >= 1 and b >= 1:
+            if a < b:
+                b = b % a
+            else:
+                a = a % b
+        if a >= 1:
+            return a
+        return b 
