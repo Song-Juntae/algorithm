@@ -2,46 +2,44 @@
 
 ## 자료구조
 
-	정의 : 데이터에 효율적으로 접근하고 수정할 수 있도록 저장, 조직, 관리하는 방법
+* 정의 : 데이터에 효율적으로 접근하고 수정할 수 있도록 저장, 조직, 관리하는 방법
 
-	관계 : 이산수학, ADT(Abstract data type), 알고리즘
+* 관계 : 이산수학, ADT(Abstract data type), 알고리즘
 
-	종류 : 배열, 연결리스트, 행렬, 스택, 큐, 그래프, 트리, 힙
+* 종류 : 배열, 연결리스트, 행렬, 스택, 큐, 그래프, 트리, 힙
 
 ## 알고리즘
 
-	정의 : 문제를 해결하는 절차
-
-	관계 : 이산수학, 자료구조, 알고리즘 패러다임
-
-	종류 : 
-		전체 탐색, 이진 탐색, 조합 전체 탐색, 
-		소수 판정법, 수열 나열, 유클리드 호제법, 몬테카를로법, 선택 정렬, 재귀 함수, 분할 정복법, 병합 정렬, 동적계획법, 배열 이진 탐색,
-		계산 기하, 누적합, 뉴턴법, 에라토스테네스의 체, 깊이 우선 탐색, 너비 우선 탐색, 반복 제곱법, 행렬 거듭제곱, 경사 하강법,
-		탐욕법, A*
+* 정의 : 문제를 해결하는 절차
+* 관계 : 이산수학, 자료구조, 알고리즘 패러다임
+* 종류 : 
+	* 전체 탐색, 이진 탐색, 조합 전체 탐색
+	* 소수 판정법, 수열 나열, 유클리드 호제법, 몬테카를로법, 선택 정렬, 재귀 함수, 분할 정복법, 병합 정렬, 동적계획법, 배열 이진 탐색
+	* 계산 기하, 누적합, 뉴턴법, 에라토스테네스의 체, 깊이 우선 탐색, 너비 우선 탐색, 반복 제곱법, 행렬 거듭제곱, 경사 하강법,
+	* 탐욕법, A*
 
 
 ## 알고리즘 패러다임
 
-	알고리즘 패러다임 또는 알고리즘 설계 패러다임은 알고리즘 클래스의 설계의 기초가 되는 일반 모델 또는 프레임워크입니다. 
-	알고리즘 패러다임은 알고리즘이 컴퓨터 프로그램보다 높은 추상화인 것처럼 알고리즘의 개념보다 높은 추상화입니다.
+알고리즘 패러다임 또는 알고리즘 설계 패러다임은 알고리즘 클래스의 설계의 기초가 되는 일반 모델 또는 프레임워크입니다. 
+알고리즘 패러다임은 알고리즘이 컴퓨터 프로그램보다 높은 추상화인 것처럼 알고리즘의 개념보다 높은 추상화입니다.
 
-	General
-		Backtracking
-		Branch and bound
-		Brute-force search
-		Divide and conquer
-		Dynamic programming
-		Greedy algorithm
-		Recursion
-		Prune and search
-	Parameterized complexity
-		Kernelization
-		Iterative compression
-	Computational geometry
-		Sweep line algorithms
-		Rotating calipers
-		Randomized incremental construction
+* General
+	* Backtracking
+	* Branch and bound
+	* Brute-force search
+	* Divide and conquer
+	* Dynamic programming
+	* Greedy algorithm
+	* Recursion
+	* Prune and search
+* Parameterized complexity
+	* Kernelization
+	* Iterative compression
+* Computational geometry
+	* Sweep line algorithms
+	* Rotating calipers
+	* Randomized incremental construction
 
 	1. 알고리즘 설계 기법 (패러다임) / 문제 해결 접근 전략 (Algorithm Design Paradigm)
 
